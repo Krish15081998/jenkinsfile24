@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'v1', url: 'https://github.com/ksrepo9/ks.git'
+                git branch: 'master', url: 'https://github.com/ksrepo9/ks.git'
             }
 			}
 		stage('List') {
