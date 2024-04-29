@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/ksrepo9/ks.git'
+                git 'https://github.com/Krish15081998/vk.git'
             }
 			}
 		stage('Clean') {
